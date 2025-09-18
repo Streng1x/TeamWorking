@@ -525,3 +525,77 @@ nav {
     align-items: center;
 }
 /* ТРЕТЬЯ СЕКЦИЯ 🦈 */
+
+
+
+
+
+/* ЧЕТВЕРТАЯ СЕКЦИЯ 🐴 */
+.fourth_section {
+    height: 290px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.fourth_section::before {
+  content: "";
+  position: absolute;
+  top: -75px;
+  left: 83px;
+  width: 347px;
+  height: 347px;
+  background: #3600A9;
+  filter: blur(150px);
+  border-radius: 50%;
+  opacity: 30%;
+  z-index: -1;
+}
+
+.fourth_section_blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 33px;
+    color: #FFFFFF;
+}
+
+.fourth_section_blocks h2 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+.fourth_section_ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.fourth_section_ul li {
+    width: 285px;
+    height: 88px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.50);
+    opacity: 0.20;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 16px;
+    padding-left: 16px;
+    transition: 0.3s;
+}
+
+.fourth_section_ul li:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    opacity: 1;
+}
+
+.fourth_section_ul li h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+/* ЧЕТВЕРТАЯ СЕКЦИЯ 🐴 */
