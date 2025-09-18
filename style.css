@@ -1,0 +1,36 @@
+
+/* ОБЩИЕ СТИЛИ 👣 */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #03051B;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* ОБЩИЕ СТИЛИ 👣 */
