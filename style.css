@@ -332,3 +332,62 @@ nav {
     opacity: 0.16;
 }
 /* ПЕРВАЯ СЕКЦИЯ 👾 */
+
+
+
+
+
+/* ВТОРАЯ СЕКЦИЯ 🥶 */
+.second_section {
+    height: 328px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second_section_blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 51px;
+    color: #FFFFFF;
+}
+
+.second_section_blocks h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.second_section_ul {
+    max-width: 1170px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.second_section_ul li {
+    width: 283px;
+    height: 88px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.10);
+    opacity: 0.20;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    gap: 16px;
+    padding-left: 16px;
+    transition: 0.3s;
+}
+
+.second_section_ul li:hover {
+    background-color: rgba(255, 255, 255, 0.10);
+    opacity: 1;
+}
+
+.second_section_ul li h4 {
+    font-weight: 600;
+    font-size: 24px;
+}
+/* ВТОРАЯ СЕКЦИЯ 🥶 */
