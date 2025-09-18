@@ -793,3 +793,150 @@ nav {
     opacity: 0.83;
 }
 /* ШЕСТАЯ СЕКЦИЯ 🤩 */
+
+
+
+
+
+/* СЕДЬМАЯ СЕКЦИЯ 🧠 */
+.seventh_section {
+    height: 1112px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    /* position: relative; */
+}
+
+/* .seventh_section::before {
+    content: url('/img/seventh_section_back.svg');
+    position: absolute;
+    top: 420px;
+    left: 600px;
+    width: 100px;
+    height: auto;
+}
+
+.seventh_section::after {
+    content: url('/img/seventh_section_img.svg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: auto;
+} */
+
+.seventh_section_blocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 174px;
+}
+
+
+
+.seventh_section_blocks_up {
+    width: 1249px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(-27px);
+    gap: 73px;
+}
+
+.seventh_section_blocks_up h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.seventh_section_blocks_up p {
+    font-weight: 300;
+    font-size: 20px;
+    opacity: 0.83;
+}
+
+
+
+.seventh_section_block_down {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.seventh_section_blocks_left {
+    width: 514px;
+    height: 478px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 60px;
+    transform: translateX(70px);
+}
+
+.seventh_section_blocks_left li {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 45px;
+}
+
+.seventh_section_blocks_left li .circle {
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+}
+
+.seventh_section_blocks_left li .c1 {
+    background-color: #23AA30;
+}
+.seventh_section_blocks_left li .c2 {
+    background-color: #C92222;
+}
+.seventh_section_blocks_left li .c3 {
+    background-color: #1ABBF1;
+}
+.seventh_section_blocks_left li .c4 {
+    background-color: #C127BB;
+}
+.seventh_section_blocks_left li .c5 {
+    background-color: #DB4E11;
+}
+.seventh_section_blocks_left li .c6 {
+    background-color: #8B44FF;
+}
+
+.seventh_section_blocks_left li p {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+.seventh_section_blocks_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    transform: translateY(-13px);
+    z-index: -1;
+}
+
+.seventh_section_blocks_right_patterns {
+    position: relative;
+    max-width: 770px;
+    width: 100%;
+}
+
+.seventh_section_blocks_right_img {
+    position: absolute;
+}
+/* СЕДЬМАЯ СЕКЦИЯ 🧠 */
