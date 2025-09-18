@@ -188,3 +188,67 @@ nav {
     display: block;
 }
 /*  ХЕДЕР 🦞 */
+
+
+
+
+
+/* БАННЕР 👀 */
+.banner {
+    margin-top: 122px;
+    height: 530px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  top: 110px;
+  left: 20px;
+  width: 196px;
+  height: 196px;
+  background: #3600A9;
+  filter: blur(130px);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.home {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.home_left {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.home_left h1 {
+    font-weight: 800;
+    font-size: 55px;
+}
+
+.home_left p {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.home_right_1 {
+    position: relative;
+}
+.home_right_2 {
+    position: absolute;
+    top: 85px;
+    left: 170px;
+}
+.home_right_3 {
+    transform: translateY(-222px) translateX(35px);
+}
+/* БАННЕР 👀 */
