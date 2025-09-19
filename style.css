@@ -145,7 +145,7 @@ nav {
     cursor: pointer;
     font-size: 16px;
 }
-.dropbtn_2 {
+.dropbtn_g {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,9 +153,11 @@ nav {
     background-color: transparent;
     color: white;
     font-weight: 600;
+    max-width: 160px;
+    width: 100%;
     padding: 10px 20px;
-    border: none;
-    border-bottom: 0.5px solid #ffffffb6;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
     cursor: pointer;
     font-size: 16px;
 }
@@ -185,6 +187,143 @@ nav {
     border-bottom: none;
 }
 .show {
+    display: block;
+}
+
+
+
+
+
+    .burger {
+      position: fixed;
+      top: 50px;
+      right: 40px;
+      width: 30px;
+      height: 20px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      z-index: 1001;
+    }
+    .burger span {
+      display: block;
+      height: 3px;
+      background: white;
+      border-radius: 2px;
+      transition: 0.3s;
+    }
+
+        /* когда активно */
+    .burger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .burger.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .burger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(6px, -6px);
+    }
+
+    .menu {
+      position: fixed;
+      top: 0;
+      right: -100%;
+      width: 70%;
+      height: 100%;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(40px);
+      padding: 30px 30px;
+      transition: 0.4s;
+      z-index: 1000;
+    }
+
+
+    .menu.active {
+      right: 0;
+    }
+    .menu ul {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+      margin-bottom: 35px;
+    }
+    .menu ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .menu ul li a:hover {
+        color: #1B6DE9;
+    }
+
+
+
+.dropdown2 {
+    position: relative;
+    display: inline-block;
+}
+.dropbtn_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    max-width: 160px;
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.dropbtn_gg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background-color: transparent;
+    color: white;
+    max-width: 160px;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    top: 0;
+    background-color: transparent;
+    max-width: 160px;
+    width: 100%;
+    border-radius: 7px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    z-index: 5;
+    border: 1px solid #ffffff5d;
+}
+.dropdown-content2 a {
+    color: white;
+    font-weight: 400;
+    padding: 12px 20px;
+    display: block;
+    border-bottom: 0.5px solid #ffffffb6;
+}
+.dropdown-content2 a:hover {
+    background-color: #1a204d;
+}
+.dropdown-content2 a:last-child {
+    border-bottom: none;
+}
+.show2 {
     display: block;
 }
 /*  ХЕДЕР 🦞 */
